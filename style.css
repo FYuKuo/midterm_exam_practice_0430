@@ -13,9 +13,10 @@
     width: 1024px;
     display: flex;
     flex-wrap: wrap;
-    margin: 5px auto;
+    margin: 10px auto;
     justify-content: center;
     padding: 0 12px;
+    text-align: center;
 }
 
 .top {
@@ -36,6 +37,8 @@
 
 .update {
     flex-basis: 25px;
+    color: #000000;
+    font-size: 16px;
 }
 
 .right {
@@ -46,6 +49,8 @@
 
 .marquee {
     flex-basis: 29px;
+    color: #0000FF;
+    font-size: 24px;
 }
 
 .content {
@@ -55,4 +60,6 @@
 .footer {
     flex-basis: 1000px;
     height: 20px;
+    color: #000000;
+    font-size: 16px;
 }
